@@ -120,7 +120,7 @@ fig, axes = plt.subplots(1, 3, figsize=(15, 5))
 axes[0].bar(
     track_means.index,
     track_means.values,
-    color="blue"
+    color="darkorchid"
 )
 axes[0].set_title("Mean Average by Track")
 axes[0].set_xlabel("Track")
@@ -133,7 +133,7 @@ for i, val in enumerate(track_means.values):
 axes[1].bar(
     gender_means.index,
     gender_means.values,
-    color="orange"
+    color="darkmagenta"
 )
 axes[1].set_title("Mean Average by Gender")
 axes[1].set_xlabel("Gender")
@@ -146,7 +146,7 @@ for i, val in enumerate(gender_means.values):
 axes[2].bar(
     hometown_means.index,
     hometown_means.values,
-    color="green"
+    color="purple"
 )
 axes[2].set_title("Mean Average by Hometown")
 axes[2].set_xlabel("Hometown")
